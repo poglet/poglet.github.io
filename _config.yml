@@ -1,6 +1,4 @@
-theme: jekyll-theme-hacker
 name: poglet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-plugins:
-  - jekyll-sitemap
+theme: jekyll-theme-hacker
