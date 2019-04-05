@@ -3,4 +3,5 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-remote-theme
-remote_theme: benbalter/retlab
+remote_theme: wild-flame/jekyll-simple
+
