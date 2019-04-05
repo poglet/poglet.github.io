@@ -1,4 +1,4 @@
 name: poglet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-remote_theme: wild-flame/jekyll-simple
+remote_theme: ankitsultana/researcher@gem
