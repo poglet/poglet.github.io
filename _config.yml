@@ -2,3 +2,5 @@ name: poglet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 remote_theme: ankitsultana/researcher@gem
+plugins:
+  - jekyll-remote-theme
