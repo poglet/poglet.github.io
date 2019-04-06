@@ -105,3 +105,5 @@ ul.posts li p {
     width: 100% !important;
     height: auto !important;
 }
+
+@import "syntax-highlighting";
