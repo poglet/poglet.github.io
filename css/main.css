@@ -49,23 +49,56 @@ ul.posts li {
     list-style: none;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+@media (max-width: 3000px) {
+    #photos {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+@media (max-width: 2000px) {
+    #photos {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+@media (max-width: 1500px) {
+    #photos {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+@media (max-width: 1000px) {
+    #photos {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    #photos {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+#photos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+}
+
+#photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
 }
