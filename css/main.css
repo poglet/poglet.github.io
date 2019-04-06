@@ -41,12 +41,16 @@ footer {
 */
 
 ul.posts { 
-    margin: 15px auto 40px; 
+    margin: 20px auto 40px; 
     font-size: 1.1em;
 }
 
 ul.posts li {
-    list-style: none;
+    list-style: none; 
+}
+
+ul.posts li p {
+    margin-left: 10px;
 }
 
 @media (max-width: 3000px) {
