@@ -1,7 +1,5 @@
 name: poglet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-plugins:
-  - jekyll-remote-theme
-remote_theme: wild-flame/jekyll-simple@gh-pages
+
 
