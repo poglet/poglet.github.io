@@ -3,9 +3,7 @@ layout: post
 title: "Markdown Examples"
 date: 2019-04-04
 ---
-# Ubuntu Setup
----
-
+Here are some markdown examples that I know about.
 
 * Abacus
     *absolute
