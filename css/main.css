@@ -1,5 +1,17 @@
+nav ul {
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
 body {
-  max-width: 38rem;
+  max-width: 45rem;
   padding: 1.5rem;
   margin: auto;
 }
