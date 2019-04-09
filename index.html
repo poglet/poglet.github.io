@@ -11,18 +11,21 @@ title: poglet.github.io
       Healthier then 75% of vegetables and 92% fruit (from what I've read online).
       Also included are photos, un-related information and terribly but hopfully improving web pages made in static site
       generator <a href="https://jekyllrb.com/">Jeckyll</a>. 
-   <br>
-      Posts:
    </p>
 
+   <p>
+   Posts:
+   </p>
+   
 </div>
 <!-- /.blurb -->
 
 <ul class="posts">
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
-    {{ post.excerpt }}
-  </li>
-  {% endfor %}
+   {% for post in site.posts %}
+   <li>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
+      {{ post.excerpt }}
+   </li>
+   {% endfor %}
 </ul>
+<!-- /.posts -->
