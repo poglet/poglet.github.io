@@ -19,6 +19,8 @@ body {
   margin: auto;
 }
 
+
+
 a {
   color: #ef007c;
 }
@@ -32,6 +34,10 @@ a:hover {
 ul.posts {
   list-style: none;
   padding-left: 0;
+}
+
+ul.posts li a {
+  text-decoration: none;
 }
 
 
