@@ -5,7 +5,6 @@ body {
 nav ul {
   padding: 0px;
   list-style: none;
-  font-weight: bold;
 }
 
 
@@ -28,6 +27,11 @@ a:hover {
   text-decoration: underline;
   color: #ef007c;
 }
+
+ul.posts li {
+  list-style: none;
+}
+
 
 @media (max-width: 3000px) {
   #photos {
