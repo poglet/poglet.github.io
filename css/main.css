@@ -20,6 +20,15 @@ body {
   margin: auto;
 }
 
+a {
+  color: #ef007c;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ef007c;
+}
+
 @media (max-width: 3000px) {
   #photos {
     -moz-column-count: 5;
