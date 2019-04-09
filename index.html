@@ -22,7 +22,7 @@ title: poglet.github.io
     <span>
       {{ post.date | date_to_string }}
     </span>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string } { post.title }}</a>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} {{ post.title }}</a>
     {{ post.excerpt }}
   </li>
   {% endfor %}
