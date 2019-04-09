@@ -29,7 +29,7 @@ a:hover {
 }
 
 /* This removes the indentation from the posts*/
-ul.posts li {
+ul.posts {
   list-style: none;
   padding-left: 0;
 }
