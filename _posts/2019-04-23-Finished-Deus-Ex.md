@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finished Deus Ex (2000)"
-date: 2019-04-32
+date: 2019-04-23
 ---
 
 # Finished Deus Ex (2000)
