@@ -4,11 +4,9 @@ title: "Finished Deus Ex (2000)"
 date: 2019-04-23
 ---
 
-# Finished Deus Ex (2000)
+Finally had a free day and descided to finish Deus Ex.  Played as a non-leathal character who would occasionly get angry and shoot people (just the bad ones).  Some things I did while in-game:
 
 [![Deus Ex](/blogpics/DeusEx.jpg)](https://en.wikipedia.org/wiki/Deus_Ex_(video_game))
-
-Finally had a free day and descided to finish Deus Ex.  Played as a non-leathal character who would occasionly get angry and shoot people (just the bad ones).  Some things I did while in-game:
 
 * Kept Paul alive
 * Kept Walton Simons alive
