@@ -3,7 +3,7 @@ layout: post
 title: "Markdown Examples"
 date: 2019-04-05
 ---
-Here are some markdown examples that I know about.
+Here are some markdown examples that I know about:
 
 * Abacus
     *absolute
