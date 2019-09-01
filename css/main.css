@@ -19,7 +19,10 @@ body {
   margin: auto;
 }
 
-
+img{
+    width:100%;
+    max-width:600px;
+}
 
 a {
   color: #ef007c;
