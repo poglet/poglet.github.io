@@ -4,6 +4,10 @@ title: "Japanese Verb Conjugation"
 date: 2020-02-12
 ---
 
-In a little over one month I’ll arrive in Tokyo. I’ll be travelling with 3 others and I plan to stay in the Tokyo area. November should be a great time to see the autumn leaves, there might be some nice spots to take photos too.
-I’ve been studying Japanese for a few weeks now and am trying to improve a little every day. Unfortunately when I learn something new I forget old.
-
+|          | Dictionary Form | Present Affirmative | Present Negative | Past Affermitive | Past Negative |
+|----------|-----------------|---------------------|------------------|------------------|---------------|
+| Ru-Verbs | Ichidan Verbs   | Rule: Drop the る    |                  |                  |               |
+| Get Up   | おきる             | おきます                | おきません            | あきました            | あきませんでした      |
+| See      | みる              | みます                 | みません             | みました             | みませんでした       |
+| Eat      | たべる             | たべます                | たべませ             | たべました            | たべませんでした      |
+| Sleep    | ねる              | ねます                 | ねません             | ねました             | ねませんでした       |
