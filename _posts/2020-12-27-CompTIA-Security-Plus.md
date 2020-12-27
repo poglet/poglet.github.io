@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "How I Passed the CompTIA Sec+ Exam"
