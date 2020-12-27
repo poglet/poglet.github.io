@@ -23,7 +23,7 @@ title: POGLET
 <ul class="posts">
    {% for post in site.posts %}
    <li>
-      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} - {{ post.title }}</a></h2>
       {{ post.content }}
    </li>
    {% endfor %}
