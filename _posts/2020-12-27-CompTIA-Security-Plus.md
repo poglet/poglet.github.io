@@ -7,6 +7,7 @@ date: 2020-12-27
 Here are the resources I used to pass the CompTia Security+ exam:
 
 ![CompTIA Book](/blogpics/Comptia.jpg)
+<img src="/blogpics/Comptia.jpg" width="100" height="100">
 
 **Books**
 
