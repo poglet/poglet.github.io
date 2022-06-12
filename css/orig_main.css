@@ -1,72 +1,48 @@
-* {
+body {
   font-family: "Inconsolata";
 }
 
-body {
-  margin: 60px auto;
-  width: 70%;
-}
-
-nav ul,
-footer ul {
-  /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+nav ul {
   padding: 0px;
   list-style: none;
-  font-weight: bold;
 }
 
-nav ul li,
-footer ul li {
+
+nav ul li {
   display: inline;
   margin-right: 20px;
 }
 
+body {
+  max-width: 45rem;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+img{
+/*    width:100%; */
+    max-width:600px;
+}
+
 a {
-  text-decoration: none;
-  color: #999;
+  color: #ef007c;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #ef007c;
 }
 
-h1 {
-  font-size: 1.5em;
-  /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
-}
-
-p {
-  font-size: 1.1em;
-  line-height: 1.1em;
-  color: #333;
-}
-
-
-/*
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-*/
-
+/* This removes the indentation from the posts*/
 ul.posts {
-  font-size: 1.1em;
-  line-height: 1.1em;
-}
-
-ul.posts li {
   list-style: none;
+  padding-left: 0;
 }
 
-ul.posts li p {
-  font-size: 1.1em;
-  line-height: 1.1em;
-  margin-left: 10px;
+ul.posts li a {
+  text-decoration: none;
 }
 
-ul.posts li span {
-  font-weight: bold;
-}
 
 @media (max-width: 3000px) {
   #photos {
