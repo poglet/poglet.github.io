@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Code-Server"
-date: 2021-06-12
+title: "CodeServer"
+date: 2022-06-12
 ---
 
 Today I setup a Vultr instance and deployed Code-Server.
