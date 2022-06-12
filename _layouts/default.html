@@ -12,19 +12,35 @@
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     {% seo %}
   </head>
+
+
   <body>
-    <nav>
-      <ul>
-        <li><a href="/">home</a></li>
-        <li><a href="/gallery">gallery</a></li>
-        <li><a href="/blog">archive</a></li>
+
+    <div class="pure-menu pure-menu-horizontal">
+      <a href="#" class="pure-menu-heading pure-menu-link">poglet</a>
+      <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+              <a href="/" class="pure-menu-link">home</a>
+          </li>
+          <li class="pure-menu-item">
+              <a href="/gallery" class="pure-menu-link">gallery</a>
+          </li>
+          <li class="pure-menu-item">
+              <a href="/blog" class="pure-menu-link">archive</a>
+          </li>
       </ul>
-    </nav>
+    </div>
+
+
     <div class="container">
       {{ content }}
     </div>
     <!-- /.container -->
+
+
     <footer>
     </footer>
+
+
   </body>
 </html>
