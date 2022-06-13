@@ -1,45 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <!-- link to main stylesheet -->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     {% seo %}
   </head>
-
-
   <body>
-
-    <div class="pure-menu pure-menu-horizontal">
-      <ul class="pure-menu-list">
-          <li class="pure-menu-item">
-              <a href="/" class="pure-menu-link">home</a>
-          </li>
-          <li class="pure-menu-item">
-              <a href="/gallery" class="pure-menu-link">gallery</a>
-          </li>
-          <li class="pure-menu-item">
-              <a href="/blog" class="pure-menu-link">archive</a>
-          </li>
+    <nav>
+      <ul>
+        <li><a href="/">home</a></li>
+        <li><a href="/gallery">gallery</a></li>
+        <li><a href="/blog">archive</a></li>
       </ul>
-    </div>
-
-
+    </nav>
     <div class="container">
       {{ content }}
     </div>
     <!-- /.container -->
-
-
     <footer>
     </footer>
-
-
   </body>
 </html>
