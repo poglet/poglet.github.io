@@ -11,7 +11,7 @@ Here are some markdown examples that I know about:
     1. bitter
     2. bupkis
     3. burper
-* Cunning 	
+* Cunning  
 
 1. Item
 2. Item
@@ -20,10 +20,9 @@ Here are some markdown examples that I know about:
 3. Item
 
 *Emphasize*
-_emphasize_
+*emphasize*
 **Strong**
-__Strong__
-
+**Strong**
 
 ```css
 #container {
@@ -33,7 +32,7 @@ __Strong__
 }
 ```
 
-~~~~
+```powershell
 while ($i -lt $names.Count) {
 
     $i = $i + 1
@@ -41,9 +40,9 @@ while ($i -lt $names.Count) {
     # create folder
     New-Item -Name $names[$i] -Path $folderpath -ItemType "directory"
 }
-~~~~
-
 ```
+
+``` txt
 This too
 ```
 
