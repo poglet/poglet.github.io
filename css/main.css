@@ -13,12 +13,14 @@ body {
     margin-right: 20px;
   }
   
+  /*
   body {
     max-width: 45rem;
     padding: 1.5rem;
     margin: auto;
   }
-  
+  */
+
   img{
   /*    width:100%; */
       max-width:600px;
