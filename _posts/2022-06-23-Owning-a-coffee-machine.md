@@ -3,9 +3,6 @@ layout: post
 title: "Reasons I like Owning a Coffee Machine"
 date: 2022-06-23
 ---
-
-# Reasons I Like Owning a Coffee Machine
-
 For the last few months I've been using a Breville Infuser coffee machine paired with the Breville Smart Grinder Pro coffee grinder.  Here are some of the reaosns I prefer making coffee at home compared to buying a coffee at the cafe.
 
 ## Benefits
