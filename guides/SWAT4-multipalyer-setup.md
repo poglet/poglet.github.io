@@ -1,7 +1,8 @@
 ---
 layout: default
 title: SWAT 4 Multiplayer Setup
-nav_order: 3
+parent: Guides
+nav_enabled: true
 ---
 
 # SWAT 4
