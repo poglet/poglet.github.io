@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Installing Windows 7 on an N3150 CPU System
-parent: guides
+parent: Guides
 ---
 
 # Installing Windows 7 on a System with an N3150 CPU
