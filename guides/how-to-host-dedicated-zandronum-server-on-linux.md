@@ -1,3 +1,9 @@
+---
+layout: default
+title: How to host dedicated Zandronum server on Linux
+parent: Guides
+---
+
 # How to host dedicated Zandronum server on Linux
 
 This is a guide I've created to help server owners host Zandronum in Linux. In my case I'm using Ubuntu 20.04. This is hosted in Oracle Cloud using the free-tier server they provide.
