@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My Old Computer
-nav_order: 1
+parent: Guides
 ---
 
 # My Old Computer
