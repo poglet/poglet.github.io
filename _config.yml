@@ -3,6 +3,3 @@ description: Practical guides on retro computing, self-hosting, networking, and 
 theme: just-the-docs
 
 url: https://poglet.github.io
-
-plugins:
-  - jekyll-sitemap
