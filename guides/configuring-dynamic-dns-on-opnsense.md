@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Configuring Dynamic DNS on OPNsense
+description: Step-by-step guide to setting up Cloudflare Dynamic DNS on OPNsense with the ddclient backend, covering API token creation and account configuration.
 parent: Guides
 ---
 

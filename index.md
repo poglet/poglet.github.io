@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+description: Practical guides on retro computing, self-hosting, networking, and gaming — from Windows 98 and old hardware to OPNsense, Zandronum servers, and more.
 ---
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.

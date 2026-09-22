@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Various Methods for Running Windows 98
+description: Compare the best ways to run Windows 98 today with DOSBox-X, 86Box, and VMware Workstation, plus download sources for Windows 98 SE and retro software.
 parent: Guides
 ---
 

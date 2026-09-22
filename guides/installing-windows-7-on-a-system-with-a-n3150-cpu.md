@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Installing Windows 7 on an N3150 CPU System
+description: Guide to installing Windows 7 on an Intel N3150 CPU system, covering USB 3.0 driver injection, SHA-2 code signing patches, and graphics driver install.
 parent: Guides
 ---
 

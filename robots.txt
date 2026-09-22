@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://poglet.github.io/sitemap.xml

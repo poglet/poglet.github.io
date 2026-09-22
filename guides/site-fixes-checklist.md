@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Site Fixes Checklist
+description: A working checklist of SEO and configuration fixes needed for this Jekyll site, covering _config.yml, sitemaps, robots.txt, and per-page meta descriptions.
 parent: Guides
 nav_enabled: true
+sitemap: false
 ---
 
 # Site Fixes Checklist
@@ -11,20 +13,20 @@ A list of items to correct the issues found in this repository, covering SEO blo
 
 ## Critical (site is misconfigured)
 
-- [ ] Fix `_config.yml`:
-  - [ ] Change `title` from "Just the Docs Template" to the real site name
-  - [ ] Change `url` from `https://just-the-docs.github.io` to `https://poglet.github.io`
-  - [ ] Write a real `description` (150–160 characters)
-  - [ ] Remove the `aux_links` entry pointing at the template repository
-- [ ] Verify the site title, URL, and description render correctly after the config change
+- [x] Fix `_config.yml`:
+  - [x] Change `title` from "Just the Docs Template" to the real site name
+  - [x] Change `url` from `https://just-the-docs.github.io` to `https://poglet.github.io`
+  - [x] Write a real `description` (150–160 characters)
+  - [x] Remove the `aux_links` entry pointing at the template repository
+- [ ] Verify the site title, URL, and description render correctly after the config change (requires deploy)
 
 ## SEO basics
 
-- [ ] Add the `jekyll-sitemap` plugin (add to `Gemfile` and `plugins` in `_config.yml`)
-- [ ] Add a `robots.txt` that allows crawling and references the sitemap
-- [ ] Add a unique `description` front matter value to every guide page
-- [ ] Add `sitemap: false` (or complete/remove) stub pages so they are not indexed
-- [ ] Verify canonical URLs and Open Graph tags render correctly with the theme's SEO tag
+- [x] Add the `jekyll-sitemap` plugin (add to `Gemfile` and `plugins` in `_config.yml`)
+- [x] Add a `robots.txt` that allows crawling and references the sitemap
+- [x] Add a unique `description` front matter value to every guide page
+- [x] Add `sitemap: false` (or complete/remove) stub pages so they are not indexed
+- [ ] Verify canonical URLs and Open Graph tags render correctly with the theme's SEO tag (requires deploy)
 
 ## Google Search Console
 
