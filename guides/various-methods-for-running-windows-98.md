@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to Run Windows 98 Today: DOSBox-X, 86Box, and VMware Compared
+title: How to Run Windows 98 Today - DOSBox-X, 86Box, and VMware Compared
 description: Compare the best ways to run Windows 98 today with DOSBox-X, 86Box, and VMware Workstation, plus download sources for Windows 98 SE and retro software.
 parent: Guides
 ---

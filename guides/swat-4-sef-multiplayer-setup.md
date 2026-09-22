@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Set Up SWAT 4 SEF-FR Multiplayer
-description: How to install SWAT 4 SEF-FR Tactical Edition and play multiplayer: joining servers via direct IP and hosting a game with the required port forwarding.
+description: How to install SWAT 4 SEF-FR Tactical Edition and play multiplayer, joining servers via direct IP and hosting a game with the required port forwarding.
 parent: Guides
 nav_enabled: true
 ---

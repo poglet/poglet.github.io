@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Restoring an Old AMD Sempron 2500+ PC
-description: Restoring an old AMD Sempron 2500+ PC: full hardware specs, driver links for the SiS741GX board, and step-by-step Windows 98 installation notes.
+description: Restoring an old AMD Sempron 2500+ PC - full hardware specs, driver links for the SiS741GX board, and step-by-step Windows 98 installation notes.
 parent: Guides
 ---
 
