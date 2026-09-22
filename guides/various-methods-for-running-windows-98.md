@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Various Methods for Running Windows 98
+title: How to Run Windows 98 Today: DOSBox-X, 86Box, and VMware Compared
 description: Compare the best ways to run Windows 98 today with DOSBox-X, 86Box, and VMware Workstation, plus download sources for Windows 98 SE and retro software.
 parent: Guides
 ---
 
-# Various Methods for Running Windows 98
+# How to Run Windows 98 Today: DOSBox-X, 86Box, and VMware Compared
 
 ## Introduction
 
-Windows 98 is a notoriously difficult system to run reliably through modern emulation or virtualization. Below is a list of methods and configurations currently available to get it running.
+Windows 98 is a notoriously difficult system to run reliably through modern emulation or virtualization. Below is a list of methods and configurations currently available to get it running. If you would rather install it on real hardware instead, see [Restoring My Old Computer: AMD Sempron 2500+]({% link guides/my-old-computer.md %}) for a Windows 98 install on period hardware.
+
+If you prefer real hardware instead of emulation, see [Restoring an Old AMD Sempron 2500+ PC]({% link guides/my-old-computer.md %}) for a full Socket A Windows 98 build log.
 
 ### DosBox-X
 
@@ -32,3 +34,9 @@ Windows 98 can also be virtualized using VMware Workstation. A step-by-step setu
 * **Windows 98 SE Operating System:** Can be acquired via [WinWorld Full OEM Edition](https://winworldpc.com/product/windows-98/98-second-edition). Note that only the OEM Full version contains a bootable image.
 * **Applications and Archive Files:** A repository of retro software tools is available through the [Internet Archive Windows 98 Software Collection](https://archive.org/details/wincollection5).
 * **Modern Software Backports:** A curated index of the latest compatible software versions still functioning on Windows 98 can be tracked via [Retro Systems Revival](https://retrosystemsrevival.blogspot.com/p/latest-versions-of-software-working-on_20.html).
+
+---
+
+## Related guides
+
+* [My Old Computer]({% link guides/my-old-computer.md %}) — installing Windows 98 on real hardware instead of a VM

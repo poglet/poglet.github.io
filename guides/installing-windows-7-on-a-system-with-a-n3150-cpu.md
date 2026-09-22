@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Installing Windows 7 on an N3150 CPU System
+title: How to Install Windows 7 on an Intel N3150 CPU System
 description: Guide to installing Windows 7 on an Intel N3150 CPU system, covering USB 3.0 driver injection, SHA-2 code signing patches, and graphics driver install.
 parent: Guides
 ---
 
-# Installing Windows 7 on a System with an N3150 CPU
+# How to Install Windows 7 on an Intel N3150 CPU System
 
 1. **Add USB 3.0 Drivers to Installation Media** Follow the [NUCBlog Guide](https://nucblog.net/2015/07/installing-windows-7-on-the-nuc5cpyh-or-nuc5ppyh/) to inject USB 3.0 drivers into your Windows 7 installation media. The required driver package is `USB_3.0_Win7_64_4.0.0.36.zip`.
 

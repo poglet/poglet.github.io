@@ -1,11 +1,11 @@
 ---
 layout: default
-title: My Old Computer
+title: Restoring an Old AMD Sempron 2500+ PC
 description: Restoring an old AMD Sempron 2500+ PC: full hardware specs, driver links for the SiS741GX board, and step-by-step Windows 98 installation notes.
 parent: Guides
 ---
 
-# My Old Computer
+# Restoring an Old AMD Sempron 2500+ PC
 
 ## Introduction
 
@@ -23,7 +23,7 @@ The other day I purchased an old computer. It reminded me of one I had in high s
 * **Keyboard:** QWERTY  
 * **Mouse:** HP  
 
-![Old Computer Image](https://poglet.com/uploads/images/gallery/2025-04/scaled-1680-/dAlimage.png)
+![Restored AMD Sempron 2500+ desktop PC with WinFast 741M01C motherboard and Sound Blaster Audigy 2 ZS card](https://poglet.com/uploads/images/gallery/2025-04/scaled-1680-/dAlimage.png)
 
 ## Software
 
@@ -74,6 +74,25 @@ The computer booted into Windows 2000. The CMOS battery had failed so there is a
 ## Objective
 
 * Install Windows 98
+
+If you want to run Windows 98 in emulation instead of on real hardware, see [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}). If the board needs repair work first (capacitors, batteries, soldering), see [Learning to Solder]({% link guides/learning-to-solder.md %}).
+
+---
+
+## Related guides
+
+* [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}) — emulation and virtualization options instead of bare metal
+* [Learning to Solder]({% link guides/learning-to-solder.md %}) — useful for repairing or recapping aging Socket A hardware
+
+For alternative ways to run Windows 98 without bare metal, see [Various Methods for Running Windows 98](various-methods-for-running-windows-98.md).
+
+For alternatives to bare-metal installation, see [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}).
+
+For alternatives to bare-metal installation, see [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}).
+
+For alternatives to bare-metal installation, see [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}).
+
+For a comparison of other ways to run Windows 98 on modern hardware or inside virtual machines, see [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}). If the hardware needs repair work before it will boot, the [Learning to Solder]({% link guides/learning-to-solder.md %}) guide covers the gear and skills needed for recapping and board-level fixes.
 
 ## Configuration
 

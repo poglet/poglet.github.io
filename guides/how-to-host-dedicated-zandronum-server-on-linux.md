@@ -1,11 +1,11 @@
 ---
 layout: default
-title: How to host dedicated Zandronum server on Linux
+title: How to Host a Dedicated Zandronum Server on Linux
 description: Learn how to host a dedicated Zandronum Doom server on Ubuntu Linux, including installation, WAD and config setup, firewall rules, and Oracle Cloud tips.
 parent: Guides
 ---
 
-# How to host dedicated Zandronum server on Linux
+# How to Host a Dedicated Zandronum Server on Linux
 
 This is a guide I've created to help server owners host Zandronum in Linux. In my case I'm using Ubuntu 20.04. This is hosted in Oracle Cloud using the free-tier server they provide.
 

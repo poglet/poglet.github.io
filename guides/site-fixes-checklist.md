@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Site Fixes Checklist
-description: A working checklist of SEO and configuration fixes needed for this Jekyll site, covering _config.yml, sitemaps, robots.txt, and per-page meta descriptions.
+description: A working checklist of SEO and configuration fixes for this Jekyll site, covering _config.yml, sitemaps, robots.txt, per-page meta descriptions, and content fixes.
 parent: Guides
 nav_enabled: true
 sitemap: false
@@ -25,7 +25,6 @@ A list of items to correct the issues found in this repository, covering SEO blo
 - [x] Add the `jekyll-sitemap` plugin (add to `Gemfile` and `plugins` in `_config.yml`)
 - [x] Add a `robots.txt` that allows crawling and references the sitemap
 - [x] Add a unique `description` front matter value to every guide page
-- [x] Add `sitemap: false` (or complete/remove) stub pages so they are not indexed
 - [ ] Verify canonical URLs and Open Graph tags render correctly with the theme's SEO tag (requires deploy)
 
 ## Google Search Console
@@ -37,14 +36,14 @@ A list of items to correct the issues found in this repository, covering SEO blo
 
 ## Content and page fixes
 
-- [ ] Rename `SWAT4-multipalyer-setup.md` (fixes the "multipalyer" typo) to something like `swat-4-sef-multiplayer-setup.md`
-- [ ] Update any internal links/front matter that reference the old SWAT 4 filename
-- [ ] Fill or remove the `installation.md` stub (currently contains only "Blah blah")
-- [ ] Complete or `nav_exclude` the `learning-to-solder.md` guide (empty placeholder sections)
-- [ ] Flesh out thin guides with unique, detailed content (target 1,500+ words where possible)
-- [ ] Add descriptive `alt` text to all images
-- [ ] Add internal links between related guides (e.g., Windows 98 ↔ My Old Computer)
-- [ ] Add keyword-focused titles and H1s for long-tail search terms per guide
+- [x] Rename `SWAT4-multipalyer-setup.md` (fixes the "multipalyer" typo) to something like `swat-4-sef-multiplayer-setup.md`
+- [x] Update any internal links/front matter that reference the old SWAT 4 filename
+- [x] Fill or remove the `installation.md` stub (currently contains only "Blah blah")
+- [x] Complete or `nav_exclude` the `learning-to-solder.md` guide (empty placeholder sections)
+- [ ] Flesh out thin guides with unique, detailed content (target 1,500+ words where possible) — skipped for now
+- [x] Add descriptive `alt` text to all images
+- [x] Add internal links between related guides (e.g., Windows 98 ↔ My Old Computer)
+- [x] Add keyword-focused titles and H1s for long-tail search terms per guide
 
 ## Technical SEO
 
