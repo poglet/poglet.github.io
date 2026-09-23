@@ -1,0 +1,161 @@
+---
+layout: default
+title: Custom HTML Guide
+description: A completely custom HTML page that fits perfectly inside my sidebar navigation.
+parent: Guides
+grand_parent: Home
+---
+
+<!-- Custom CSS scoped specifically for this page layout to match Just the Docs theme rules -->
+<style>
+  .jtd-custom-container {
+    font-family: system-ui, -apple-system, sans-serif;
+    margin-top: 1.5rem;
+  }
+  
+  /* Quick action buttons */
+  .btn-group {
+    display: flex;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+  }
+  .jtd-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  .jtd-btn-primary {
+    background-color: #7253ed; /* Just the Docs signature purple */
+    color: #ffffff !important;
+  }
+  .jtd-btn-primary:hover {
+    background-color: #5a3bc8;
+  }
+  .jtd-btn-secondary {
+    background-color: transparent;
+    border-color: #cbd5e1;
+    color: #334155 !important;
+  }
+  .jtd-btn-secondary:hover {
+    background-color: #f8fafc;
+    border-color: #94a3b8;
+  }
+
+  /* Interactive Tab Switcher Styling */
+  .tab-container {
+    margin: 2rem 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  .tab-nav {
+    display: flex;
+    background-color: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .tab-button {
+    background: none;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #64748b;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+  }
+  .tab-button:hover {
+    color: #334155;
+  }
+  .tab-button.active {
+    color: #7253ed;
+    border-bottom-color: #7253ed;
+    background-color: #ffffff;
+  }
+  .tab-panel {
+    display: none;
+    padding: 1.25rem;
+  }
+  .tab-panel.active {
+    display: block;
+  }
+
+  /* Built-in Just the Docs style callout boxes */
+  .custom-callout {
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid #7253ed;
+    background-color: #fbfaff;
+    border-radius: 0 4px 4px 0;
+  }
+  .custom-callout h4 {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    color: #5a3bc8;
+  }
+  .custom-callout p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #475569;
+  }
+</style>
+
+<div class="jtd-custom-container">
+  <h1>Advanced Interactive Workspace</h1>
+  <p class="text-delta">This dashboard highlights custom grid cards, modular toggle workflows, and reactive Javascript variables natively integrated into your Jekyll workflow.</p>
+
+  <!-- Button Grid Block -->
+  <div class="btn-group">
+    <button class="jtd-btn jtd-btn-primary" onclick="alert('Primary action triggered!')">Deploy Server</button>
+    <a href="https://just-the-docs.com" target="_blank" class="jtd-btn jtd-btn-secondary">Theme Documentation →</a>
+  </div>
+
+  <!-- Integrated Callout Element -->
+  <div class="custom-callout">
+    <h4>💡 Pro Tip: Custom HTML Elements</h4>
+    <p>By mimicking the base colors of your config file, your customized frames blend invisibly directly alongside normal Jekyll layout configurations.</p>
+  </div>
+
+  <!-- Dynamic JS Tab Interface -->
+  <div class="tab-container">
+    <div class="tab-nav">
+      <button class="tab-button active" onclick="switchTab(event, 'tab-retro')">Retro Computing</button>
+      <button class="tab-button" onclick="switchTab(event, 'tab-hosting')">Self-Hosting</button>
+    </div>
+    
+    <div id="tab-retro" class="tab-panel active">
+      <h3>Classic Architecture Matrix</h3>
+      <p>Manage raw pinouts, hardware restorations, and interrupt timing sequences directly inside this customized component viewport.</p>
+    </div>
+    
+    <div id="tab-hosting" class="tab-panel">
+      <h3>Docker Orchestration Config</h3>
+      <p>Monitor localized dynamic assets or generate quick-copy lines for your network container builds efficiently.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Safe localized JavaScript for tab manipulation -->
+<script>
+  function switchTab(event, tabId) {
+    // Hide all panels inside the container
+    const panels = document.querySelectorAll('.tab-panel');
+    panels.forEach(panel => panel.classList.remove('active'));
+
+    // Deactivate all tab header buttons
+    const buttons = document.querySelectorAll('.tab-button');
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    // Activate selected panel and button element
+    document.getElementById(tabId).classList.add('active');
+    event.currentTarget.classList.add('active');
+  }
+</script>
