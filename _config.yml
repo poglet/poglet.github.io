@@ -2,7 +2,7 @@ title: Poglet
 description: Practical guides on retro computing, self-hosting, networking, and gaming — from Windows 98 and old hardware to OPNsense, Zandronum servers, and more.
 theme: just-the-docs
 
-url: https://poglet.github.io
+url: https://poglet.com
 
 plugins:
   - jekyll-sitemap
