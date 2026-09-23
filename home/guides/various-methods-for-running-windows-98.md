@@ -3,15 +3,16 @@ layout: default
 title: How to Run Windows 98 Today - DOSBox-X, 86Box, and VMware Compared
 description: Compare the best ways to run Windows 98 today with DOSBox-X, 86Box, and VMware Workstation, plus download sources for Windows 98 SE and retro software.
 parent: Guides
+grand_parent: Home
 ---
 
 # How to Run Windows 98 Today: DOSBox-X, 86Box, and VMware Compared
 
 ## Introduction
 
-Windows 98 is a notoriously difficult system to run reliably through modern emulation or virtualization. Below is a list of methods and configurations currently available to get it running. If you would rather install it on real hardware instead, see [Restoring My Old Computer: AMD Sempron 2500+]({% link guides/my-old-computer.md %}) for a Windows 98 install on period hardware.
+Windows 98 is a notoriously difficult system to run reliably through modern emulation or virtualization. Below is a list of methods and configurations currently available to get it running. If you would rather install it on real hardware instead, see [Restoring My Old Computer: AMD Sempron 2500+]({% link home/guides/my-old-computer.md %}) for a Windows 98 install on period hardware.
 
-If you prefer real hardware instead of emulation, see [Restoring an Old AMD Sempron 2500+ PC]({% link guides/my-old-computer.md %}) for a full Socket A Windows 98 build log.
+If you prefer real hardware instead of emulation, see [Restoring an Old AMD Sempron 2500+ PC]({% link home/guides/my-old-computer.md %}) for a full Socket A Windows 98 build log.
 
 ### DosBox-X
 
@@ -39,4 +40,4 @@ Windows 98 can also be virtualized using VMware Workstation. A step-by-step setu
 
 ## Related guides
 
-* [My Old Computer]({% link guides/my-old-computer.md %}) — installing Windows 98 on real hardware instead of a VM
+* [My Old Computer]({% link home/guides/my-old-computer.md %}) — installing Windows 98 on real hardware instead of a VM

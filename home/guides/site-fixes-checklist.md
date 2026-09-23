@@ -3,6 +3,7 @@ layout: default
 title: Site Fixes Checklist
 description: A working checklist of SEO and configuration fixes for this Jekyll site, covering _config.yml, sitemaps, robots.txt, per-page meta descriptions, and content fixes.
 parent: Guides
+grand_parent: Home
 nav_enabled: true
 sitemap: false
 ---

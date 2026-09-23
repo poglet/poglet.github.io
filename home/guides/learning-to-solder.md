@@ -3,6 +3,7 @@ layout: default
 title: Learning to Solder
 description: A growing collection of soldering resources for beginners, including a shopping list of gear, tutorial videos, and starter project ideas.
 parent: Guides
+grand_parent: Home
 nav_enabled: true
 ---
 
@@ -55,18 +56,18 @@ A growing collection of soldering resources for beginners, including a shopping 
 
 ### Intermediate Projects
 
-* **Recap an old motherboard** — replacing bulging or leaking capacitors is a rite of passage in retro computing. Start on dead boards before touching hardware you care about. Machines like the one in [My Old Computer]({% link guides/my-old-computer.md %}) often need exactly this work.
+* **Recap an old motherboard** — replacing bulging or leaking capacitors is a rite of passage in retro computing. Start on dead boards before touching hardware you care about. Machines like the one in [My Old Computer]({% link home/guides/my-old-computer.md %}) often need exactly this work.
 * **Replace a broken DC jack** — a very common laptop and console repair that is easier than it looks.
 * **Wire up a Raspberry Pi or Arduino project** — headers, buttons, and LEDs on perfboard.
 
 ### Longer-Term Projects
 
 * **Keyboard or controller mods** — swapping switches or installing LEDs in game controllers.
-* **Repairing retro expansion cards** — Sound Blaster, network cards, and video cards from the Socket A era often just need new capacitors. Pair the repair with the software setup in [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}).
+* **Repairing retro expansion cards** — Sound Blaster, network cards, and video cards from the Socket A era often just need new capacitors. Pair the repair with the software setup in [Various Methods for Running Windows 98]({% link home/guides/various-methods-for-running-windows-98.md %}).
 
 ---
 
 ## Related Guides
 
-* [My Old Computer]({% link guides/my-old-computer.md %}) — restoring an AMD Sempron 2500+ PC, including hardware that may need soldering work.
-* [Various Methods for Running Windows 98]({% link guides/various-methods-for-running-windows-98.md %}) — what to install once the hardware is repaired.
+* [My Old Computer]({% link home/guides/my-old-computer.md %}) — restoring an AMD Sempron 2500+ PC, including hardware that may need soldering work.
+* [Various Methods for Running Windows 98]({% link home/guides/various-methods-for-running-windows-98.md %}) — what to install once the hardware is repaired.

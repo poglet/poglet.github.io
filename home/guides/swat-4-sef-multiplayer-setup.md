@@ -3,6 +3,7 @@ layout: default
 title: How to Set Up SWAT 4 SEF-FR Multiplayer
 description: How to install SWAT 4 SEF-FR Tactical Edition and play multiplayer, joining servers via direct IP and hosting a game with the required port forwarding.
 parent: Guides
+grand_parent: Home
 nav_enabled: true
 ---
 
@@ -47,10 +48,10 @@ nav_enabled: true
 
 ## Related Guides
 
-* [How to Host a Dedicated Zandronum Server on Linux]({% link guides/how-to-host-dedicated-zandronum-server-on-linux.md %}) — another retro FPS multiplayer setup, this time for Doom on Linux.
+* [How to Host a Dedicated Zandronum Server on Linux]({% link home/guides/how-to-host-dedicated-zandronum-server-on-linux.md %}) — another retro FPS multiplayer setup, this time for Doom on Linux.
 
 ---
 
 ## Related guides
 
-* [How to Host a Dedicated Zandronum Server on Linux]({% link guides/how-to-host-dedicated-zandronum-server-on-linux.md %}) — another retro gaming multiplayer setup, this time on Ubuntu.
+* [How to Host a Dedicated Zandronum Server on Linux]({% link home/guides/how-to-host-dedicated-zandronum-server-on-linux.md %}) — another retro gaming multiplayer setup, this time on Ubuntu.
