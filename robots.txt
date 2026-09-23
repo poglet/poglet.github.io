@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://poglet.github.io/sitemap.xml
+Sitemap: https://poglet.com/sitemap.xml
