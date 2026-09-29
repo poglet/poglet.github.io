@@ -2,6 +2,7 @@
 layout: default
 title: How to Play Fallout 2 Co-op on Bazzite Linux
 description: How to install the Fallout 2 co-op mod with the GOG version of Fallout 2 via Heroic Launcher on Bazzite Linux, covering hosting a game, joining a session, and port forwarding for play over the internet.
+last_modified_date: 2026-09-30
 parent: Guides
 grand_parent: Home
 nav_enabled: true
