@@ -61,7 +61,7 @@ nav_enabled: true
 heading_anchors: true
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+color_scheme: light
 
 callouts:
   highlight:
