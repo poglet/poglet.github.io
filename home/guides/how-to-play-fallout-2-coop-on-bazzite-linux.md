@@ -43,8 +43,10 @@ These steps were tested on Bazzite Linux using the GOG version of Fallout 2 inst
 1. In Heroic, select **Add Game** and give it a title such as `Fallout 2 Join Server`.
 2. Set the executable to the `join.cmd` file from the extracted mod.
 3. Run the game and join the host's session.
+
 {: .note }
-Explanation:  We are needing to start Fallout 2 in two different Heroic game sessions, that is why we are creating the 2nd game entry pointing to the join.cmd file despite only having a single Fallout 2 installation folder.  If you are not the one hosting the game, you do not need to run the server.
+We are needing to start Fallout 2 in two different Heroic game sessions, that is why we are creating the 2nd game entry pointing to the join.cmd file despite only having a single Fallout 2 installation folder.  If you are not the one hosting the game, you do not need to run the server.
+
 ---
 
 ## Playing Over the Internet
