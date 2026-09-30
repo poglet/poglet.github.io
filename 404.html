@@ -5,20 +5,15 @@ nav_exclude: true
 permalink: /404.html
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <!-- 1. HTML Meta Refresh: Redirects to home page after 0 seconds -->
-    <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
-    <title>Redirecting...</title>
-    
-    <!-- 2. JavaScript Backup: Redirects immediately if the browser supports it -->
-    <script type="text/javascript">
-        window.location.href = "{{ '/' | relative_url }}";
-    </script>
-</head>
-<body>
-    <p>Page not found. Redirecting you to the <a href="{{ '/' | relative_url }}">main page</a>...</p>
-</body>
-</html>
+# 🔍 Page Not Found (404)
+
+The documentation page you are looking for might have been moved, renamed, or deleted. 
+
+### Don't worry, you aren't lost! 
+Since this site contains technical documentation, here is how you can quickly find what you need:
+
+1. **Use the Search Bar:** Use the built-in search bar at the top of the page to type in keywords from the page you were expecting.
+2. **Use the Sidebar Navigation:** Browse the active topics list on the left to locate the updated documentation sections.
+3. **Go to the Main Index:** If you'd prefer to start fresh from the beginning, click the button below.
+
+<a href="{{ '/' | relative_url }}" class="btn btn-purple" style="margin-top: 20px; display: inline-block;">Return to Home</a>
