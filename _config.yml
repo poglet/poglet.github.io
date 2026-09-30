@@ -93,8 +93,8 @@ gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-title: Poglet
-description: Practical guides on retro computing, self-hosting, networking, and gaming — from Windows 98 and old hardware to OPNsense, Zandronum servers, and more.
+title: "Poglet | Coffee, Infrastructure & Tech"
+description: Practical guides on legacy computing, self-hosting, networking, and system administration — from Windows 98 and classic hardware to OPNsense, server deployments, and more.
 theme: just-the-docs
 
 url: https://poglet.com
