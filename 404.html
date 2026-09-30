@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Page Not Found"
+nav_exclude: true
+permalink: /404.html
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 1. HTML Meta Refresh: Redirects to home page after 0 seconds -->
+    <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+    <title>Redirecting...</title>
+    
+    <!-- 2. JavaScript Backup: Redirects immediately if the browser supports it -->
+    <script type="text/javascript">
+        window.location.href = "{{ '/' | relative_url }}";
+    </script>
+</head>
+<body>
+    <p>Page not found. Redirecting you to the <a href="{{ '/' | relative_url }}">main page</a>...</p>
+</body>
+</html>
