@@ -96,11 +96,9 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 title: "Poglet | Coffee, Infrastructure & Tech"
 description: Practical guides on legacy computing, self-hosting, networking, and system administration — from Windows 98 and classic hardware to OPNsense, server deployments, and more.
 theme: just-the-docs
-
 url: https://poglet.com
-
-
-
+author:
+  name: "Poglet"
 
 plugins:
   - jekyll-sitemap
